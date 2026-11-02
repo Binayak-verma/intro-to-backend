@@ -48,7 +48,7 @@ intro-to-backend/
 
 ### 1. Clone the repository
 ```bash
-git clone <YOUR_GITHUB_REPO_URL>
+git clone https://github.com/Binayak-verma/intro-to-backend.git
 cd intro-to-backend
 ```
 
@@ -64,9 +64,10 @@ cp .env.example .env
 ```
 Add your MongoDB connection string in `.env`:
 ```env
-PORT=5000
-MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/intro_backend?retryWrites=true&w=majority
+PORT=5001
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/intro_backend?retryWrites=true&w=majority
 ```
+*(Note: Port 5001 is used by default to prevent conflicts with macOS AirPlay Receiver on port 5000).*
 
 ### 4. Run the Server
 - For development with auto-reload:
@@ -82,7 +83,7 @@ npm start
 
 ## 🌐 API Reference
 
-### Base URL: `http://localhost:5000`
+### Base URL: `http://localhost:5001`
 
 | Method | Endpoint | Description | Request Body Example |
 | :--- | :--- | :--- | :--- |
@@ -110,4 +111,4 @@ npm start
 ---
 
 ## 👤 Author
-- **Binayak Verma**
+- **Binayak Verma** ([@Binayak-verma](https://github.com/Binayak-verma))
