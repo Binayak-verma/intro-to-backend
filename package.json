@@ -1,0 +1,22 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "Intro to Backend Web Development - Node.js, Express, MongoDB CRUD API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["node", "express", "mongodb", "crud", "rest-api"],
+  "author": "Binayak Verma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
